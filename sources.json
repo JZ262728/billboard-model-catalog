@@ -6,6 +6,9 @@
   "deepseek": "https://api-docs.deepseek.com/quick_start/pricing",
   "qwen": "https://help.aliyun.com/zh/model-studio/getting-started/models",
   "mistral": "https://docs.mistral.ai/getting-started/models/models_overview/",
-  "kimi": "https://platform.moonshot.cn/docs/api/chat"
+  "kimi": "https://platform.moonshot.cn/docs/api/chat",
+  "z-ai": "https://docs.z.ai/",
+  "meta": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+  "mimo": "https://github.com/XiaomiMiMo/MiMo",
+  "nvidia": "https://huggingface.co/nvidia"
 }
-

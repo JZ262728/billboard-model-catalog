@@ -77,6 +77,56 @@
         { "id": "kimi-k2.5", "displayName": "Kimi K2.5", "status": "active", "featured": true, "aliases": [] },
         { "id": "kimi-k2-thinking", "displayName": "Kimi K2 Thinking", "status": "active", "featured": false, "aliases": [] }
       ]
+    },
+    {
+      "id": "z-ai",
+      "displayName": "Z.AI",
+      "models": [
+        { "id": "glm-5.2", "displayName": "GLM-5.2", "status": "active", "featured": true, "aliases": [] },
+        { "id": "glm-5.1", "displayName": "GLM-5.1", "status": "active", "featured": true, "aliases": [] },
+        { "id": "glm-5", "displayName": "GLM-5", "status": "active", "featured": false, "aliases": [] },
+        { "id": "glm-5-turbo", "displayName": "GLM-5-Turbo", "status": "active", "featured": false, "aliases": [] },
+        { "id": "glm-4.7", "displayName": "GLM-4.7", "status": "active", "featured": false, "aliases": [] },
+        { "id": "glm-4.6", "displayName": "GLM-4.6", "status": "active", "featured": false, "aliases": [] },
+        { "id": "glm-4.5", "displayName": "GLM-4.5", "status": "active", "featured": false, "aliases": [] },
+        { "id": "glm-4.5-air", "displayName": "GLM-4.5-Air", "status": "active", "featured": false, "aliases": [] },
+        { "id": "glm-4.5-flash", "displayName": "GLM-4.5-Flash", "status": "active", "featured": false, "aliases": [] }
+      ]
+    },
+    {
+      "id": "meta",
+      "displayName": "Meta",
+      "models": [
+        { "id": "muse-spark-1.1", "displayName": "Muse Spark 1.1", "status": "active", "featured": true, "aliases": [] },
+        { "id": "muse-spark", "displayName": "Muse Spark", "status": "active", "featured": false, "aliases": [] },
+        { "id": "muse-image", "displayName": "Muse Image", "status": "active", "featured": false, "aliases": [] },
+        { "id": "muse-video", "displayName": "Muse Video", "status": "active", "featured": false, "aliases": [] }
+      ]
+    },
+    {
+      "id": "mimo",
+      "displayName": "MiMo",
+      "models": [
+        { "id": "mimo-7b-rl-0530", "displayName": "MiMo-7B-RL-0530", "status": "active", "featured": true, "aliases": [] },
+        { "id": "mimo-7b-rl", "displayName": "MiMo-7B-RL", "status": "active", "featured": true, "aliases": [] },
+        { "id": "mimo-7b-sft", "displayName": "MiMo-7B-SFT", "status": "active", "featured": false, "aliases": [] },
+        { "id": "mimo-7b-base", "displayName": "MiMo-7B-Base", "status": "active", "featured": false, "aliases": [] },
+        { "id": "mimo-7b-rl-zero", "displayName": "MiMo-7B-RL-Zero", "status": "active", "featured": false, "aliases": [] },
+        { "id": "mimo-vl-7b-rl", "displayName": "MiMo-VL-7B-RL", "status": "active", "featured": false, "aliases": [] },
+        { "id": "mimo-vl-7b-sft", "displayName": "MiMo-VL-7B-SFT", "status": "active", "featured": false, "aliases": [] }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "displayName": "NVIDIA",
+      "models": [
+        { "id": "nemotron-3-ultra", "displayName": "Nemotron 3 Ultra", "status": "active", "featured": true, "aliases": [] },
+        { "id": "nemotron-3-super", "displayName": "Nemotron 3 Super", "status": "active", "featured": true, "aliases": [] },
+        { "id": "nemotron-3-nano", "displayName": "Nemotron 3 Nano", "status": "active", "featured": true, "aliases": [] },
+        { "id": "llama-3.1-nemotron-ultra-253b-v1", "displayName": "Llama 3.1 Nemotron Ultra 253B v1", "status": "active", "featured": false, "aliases": [] },
+        { "id": "llama-3.3-nemotron-super-49b-v1", "displayName": "Llama 3.3 Nemotron Super 49B v1", "status": "active", "featured": false, "aliases": [] },
+        { "id": "llama-3.1-nemotron-nano-8b-v1", "displayName": "Llama 3.1 Nemotron Nano 8B v1", "status": "active", "featured": false, "aliases": [] }
+      ]
     }
   ]
 }
