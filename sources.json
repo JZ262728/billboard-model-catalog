@@ -1,0 +1,11 @@
+{
+  "openai": "https://developers.openai.com/api/docs/models",
+  "anthropic": "https://platform.claude.com/docs/en/about-claude/models/overview",
+  "google": "https://ai.google.dev/gemini-api/docs/models",
+  "xai": "https://docs.x.ai/developers/models",
+  "deepseek": "https://api-docs.deepseek.com/quick_start/pricing",
+  "qwen": "https://help.aliyun.com/zh/model-studio/getting-started/models",
+  "mistral": "https://docs.mistral.ai/getting-started/models/models_overview/",
+  "kimi": "https://platform.moonshot.cn/docs/api/chat"
+}
+

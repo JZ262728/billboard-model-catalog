@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-16T00:00:00Z",
+  "providers": [
+    {
+      "id": "openai",
+      "displayName": "OpenAI",
+      "models": [
+        { "id": "gpt-5.6-sol", "displayName": "GPT-5.6 Sol", "status": "active", "featured": true, "aliases": ["gpt-5.6"] },
+        { "id": "gpt-5.6-terra", "displayName": "GPT-5.6 Terra", "status": "active", "featured": true, "aliases": [] },
+        { "id": "gpt-5.6-luna", "displayName": "GPT-5.6 Luna", "status": "active", "featured": true, "aliases": [] },
+        { "id": "gpt-5.5", "displayName": "GPT-5.5", "status": "active", "featured": false, "aliases": [] },
+        { "id": "gpt-5.4", "displayName": "GPT-5.4", "status": "active", "featured": false, "aliases": [] },
+        { "id": "gpt-5.3-codex", "displayName": "GPT-5.3 Codex", "status": "active", "featured": false, "aliases": [] }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "displayName": "Anthropic",
+      "models": [
+        { "id": "claude-fable-5", "displayName": "Claude Fable 5", "status": "active", "featured": true, "aliases": [] },
+        { "id": "claude-opus-4-8", "displayName": "Claude Opus 4.8", "status": "active", "featured": true, "aliases": [] },
+        { "id": "claude-sonnet-5", "displayName": "Claude Sonnet 5", "status": "active", "featured": true, "aliases": [] },
+        { "id": "claude-haiku-4-5-20251001", "displayName": "Claude Haiku 4.5", "status": "active", "featured": false, "aliases": ["claude-haiku-4-5"] }
+      ]
+    },
+    {
+      "id": "google",
+      "displayName": "Google",
+      "models": [
+        { "id": "gemini-3.5-flash", "displayName": "Gemini 3.5 Flash", "status": "active", "featured": true, "aliases": [] },
+        { "id": "gemini-3.1-pro", "displayName": "Gemini 3.1 Pro", "status": "preview", "featured": true, "aliases": [] },
+        { "id": "gemini-3-flash", "displayName": "Gemini 3 Flash", "status": "preview", "featured": false, "aliases": [] },
+        { "id": "gemini-2.5-pro", "displayName": "Gemini 2.5 Pro", "status": "active", "featured": false, "aliases": [] },
+        { "id": "gemini-2.5-flash", "displayName": "Gemini 2.5 Flash", "status": "active", "featured": false, "aliases": [] }
+      ]
+    },
+    {
+      "id": "xai",
+      "displayName": "xAI",
+      "models": [
+        { "id": "grok-4.5", "displayName": "Grok 4.5", "status": "active", "featured": true, "aliases": [] },
+        { "id": "grok-4.3", "displayName": "Grok 4.3", "status": "active", "featured": true, "aliases": ["grok-latest"] },
+        { "id": "grok-4.20", "displayName": "Grok 4.20", "status": "active", "featured": false, "aliases": [] }
+      ]
+    },
+    {
+      "id": "deepseek",
+      "displayName": "DeepSeek",
+      "models": [
+        { "id": "deepseek-v4-pro", "displayName": "DeepSeek V4 Pro", "status": "active", "featured": true, "aliases": [] },
+        { "id": "deepseek-v4-flash", "displayName": "DeepSeek V4 Flash", "status": "active", "featured": true, "aliases": ["deepseek-chat", "deepseek-reasoner"] }
+      ]
+    },
+    {
+      "id": "qwen",
+      "displayName": "Qwen",
+      "models": [
+        { "id": "qwen3-max", "displayName": "Qwen3 Max", "status": "active", "featured": true, "aliases": [] },
+        { "id": "qwen3-coder", "displayName": "Qwen3 Coder", "status": "active", "featured": true, "aliases": [] },
+        { "id": "qwen3-omni", "displayName": "Qwen3 Omni", "status": "active", "featured": false, "aliases": [] }
+      ]
+    },
+    {
+      "id": "mistral",
+      "displayName": "Mistral AI",
+      "models": [
+        { "id": "mistral-large-latest", "displayName": "Mistral Large", "status": "active", "featured": true, "aliases": [] },
+        { "id": "mistral-medium-latest", "displayName": "Mistral Medium", "status": "active", "featured": true, "aliases": [] },
+        { "id": "codestral-latest", "displayName": "Codestral", "status": "active", "featured": false, "aliases": [] }
+      ]
+    },
+    {
+      "id": "kimi",
+      "displayName": "Kimi",
+      "models": [
+        { "id": "kimi-k2.5", "displayName": "Kimi K2.5", "status": "active", "featured": true, "aliases": [] },
+        { "id": "kimi-k2-thinking", "displayName": "Kimi K2 Thinking", "status": "active", "featured": false, "aliases": [] }
+      ]
+    }
+  ]
+}

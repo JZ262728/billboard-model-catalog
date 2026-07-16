@@ -1,0 +1,34 @@
+name: Publish model catalog
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - model-catalog.json
+      - scripts/validate-catalog.mjs
+      - .github/workflows/publish.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-model-catalog
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate catalog
+        run: node scripts/validate-catalog.mjs
+      - name: Create catalog release if needed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release view model-catalog || gh release create model-catalog --title "Billboard model catalog" --notes "Non-executable model-name metadata used by Billboard."
+      - name: Publish catalog asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload model-catalog model-catalog.json --clobber
+
