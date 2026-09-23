@@ -1,8 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T00:00:00Z",
+  "updatedAt": "2026-09-23T00:00:00Z",
   "providers": [
     { "id": "openai", "displayName": "OpenAI", "models": [
+      { "id": "gpt-6-astra", "displayName": "GPT-6 Astra", "status": "active", "featured": true, "aliases": [] },
+      { "id": "gpt-6-sol", "displayName": "GPT-6 Sol", "status": "active", "featured": true, "aliases": [] },
+      { "id": "gpt-6-luna", "displayName": "GPT-6 Luna", "status": "active", "featured": true, "aliases": [] },
+      { "id": "gpt-5.6-cyber", "displayName": "GPT-5.6 Cyber", "status": "active", "featured": false, "aliases": [] },
       { "id": "gpt-5.6-sol", "displayName": "GPT-5.6 Sol", "status": "active", "featured": true, "aliases": ["gpt-5.6"] },
       { "id": "gpt-5.6-terra", "displayName": "GPT-5.6 Terra", "status": "active", "featured": true, "aliases": [] },
       { "id": "gpt-5.6-luna", "displayName": "GPT-5.6 Luna", "status": "active", "featured": true, "aliases": [] },
@@ -15,29 +19,42 @@
     ] },
     { "id": "anthropic", "displayName": "Anthropic", "models": [
       { "id": "claude-fable-5-1", "displayName": "Claude Fable 5.1", "status": "active", "featured": true, "aliases": [] },
+      { "id": "claude-opus-5-5", "displayName": "Claude Opus 5.5", "status": "active", "featured": true, "aliases": [] },
       { "id": "claude-opus-5", "displayName": "Claude Opus 5", "status": "active", "featured": true, "aliases": [] },
       { "id": "claude-sonnet-5", "displayName": "Claude Sonnet 5", "status": "active", "featured": true, "aliases": [] },
       { "id": "claude-haiku-4-5-20251001", "displayName": "Claude Haiku 4.5", "status": "active", "featured": false, "aliases": ["claude-haiku-4-5"] }
     ] },
     { "id": "google", "displayName": "Google", "models": [
+      { "id": "gemini-3.8-flash", "displayName": "Gemini 3.8 Flash", "status": "active", "featured": true, "aliases": [] },
+      { "id": "gemini-3.8-live", "displayName": "Gemini 3.8 Live", "status": "active", "featured": false, "aliases": [] },
+      { "id": "gemini-3.8-live-extended-thinking", "displayName": "Gemini 3.8 Live Extended Thinking", "status": "active", "featured": false, "aliases": [] },
+      { "id": "gemini-3.7-flash", "displayName": "Gemini 3.7 Flash", "status": "active", "featured": true, "aliases": [] },
       { "id": "gemini-3.6-flash", "displayName": "Gemini 3.6 Flash", "status": "active", "featured": true, "aliases": [] },
       { "id": "gemini-3.5-flash", "displayName": "Gemini 3.5 Flash", "status": "active", "featured": true, "aliases": [] },
       { "id": "gemini-3.5-flash-lite", "displayName": "Gemini 3.5 Flash-Lite", "status": "active", "featured": false, "aliases": [] },
       { "id": "gemini-3.1-flash-lite", "displayName": "Gemini 3.1 Flash-Lite", "status": "active", "featured": false, "aliases": [] },
-      { "id": "gemini-3.1-flash-live-preview", "displayName": "Gemini 3.1 Flash Live", "status": "preview", "featured": false, "aliases": [] }
+      { "id": "gemini-3.1-flash-live-preview", "displayName": "Gemini 3.1 Flash Live", "status": "preview", "featured": false, "aliases": [] },
+      { "id": "gemini-3.1-pro-preview", "displayName": "Gemini 3.1 Pro", "status": "preview", "featured": true, "aliases": [] },
+      { "id": "gemini-3.1-flash-image", "displayName": "Nano Banana 2", "status": "active", "featured": false, "aliases": [] },
+      { "id": "gemini-3.1-flash-lite-image", "displayName": "Nano Banana 2 Lite", "status": "active", "featured": false, "aliases": [] },
+      { "id": "gemini-3-pro-image", "displayName": "Nano Banana Pro", "status": "active", "featured": false, "aliases": [] }
     ] },
     { "id": "xai", "displayName": "xAI", "models": [
+      { "id": "grok-4.7", "displayName": "Grok 4.7", "status": "active", "featured": true, "aliases": [] },
       { "id": "grok-4.3", "displayName": "Grok 4.3", "status": "active", "featured": true, "aliases": ["grok-latest"] },
       { "id": "grok-build-0.1", "displayName": "Grok Build 0.1", "status": "active", "featured": true, "aliases": [] },
       { "id": "grok-4.20-multi-agent-0309", "displayName": "Grok 4.20 Multi-Agent", "status": "preview", "featured": false, "aliases": ["grok-4.20-multi-agent"] }
     ] },
     { "id": "deepseek", "displayName": "DeepSeek", "models": [
-      { "id": "deepseek-v4-pro", "displayName": "DeepSeek V4 Pro", "status": "active", "featured": true, "aliases": [] },
-      { "id": "deepseek-v4-flash", "displayName": "DeepSeek V4 Flash", "status": "active", "featured": true, "aliases": [] },
+      { "id": "deepseek-v4-pro", "displayName": "DeepSeek V4 Pro", "status": "active", "featured": true, "aliases": ["deepseek-v4-pro-0813"] },
+      { "id": "deepseek-v4-flash", "displayName": "DeepSeek V4 Flash", "status": "active", "featured": true, "aliases": ["deepseek-v4-flash-0731"] },
+      { "id": "deepseek-v4.1-flash", "displayName": "DeepSeek V4.1 Flash", "status": "active", "featured": true, "aliases": [] },
       { "id": "deepseek-v4-flash-vision-exp", "displayName": "DeepSeek V4 Flash Vision", "status": "preview", "featured": false, "aliases": [] }
     ] },
     { "id": "qwen", "displayName": "Qwen", "models": [
+      { "id": "qwen3.8-flash", "displayName": "Qwen3.8 Flash", "status": "active", "featured": true, "aliases": [] },
       { "id": "qwen3.8-max", "displayName": "Qwen3.8 Max", "status": "active", "featured": true, "aliases": [] },
+      { "id": "qwen3.7-plus", "displayName": "Qwen3.7 Plus", "status": "active", "featured": true, "aliases": [] },
       { "id": "qwen3.7-max", "displayName": "Qwen3.7 Max", "status": "active", "featured": true, "aliases": [] },
       { "id": "qwen3.5-plus", "displayName": "Qwen3.5 Plus", "status": "active", "featured": true, "aliases": [] },
       { "id": "qwen3.5-flash", "displayName": "Qwen3.5 Flash", "status": "active", "featured": false, "aliases": [] },
@@ -61,6 +78,8 @@
       { "id": "kimi-k2.5", "displayName": "Kimi K2.5", "status": "active", "featured": false, "aliases": [] }
     ] },
     { "id": "z-ai", "displayName": "Z.AI", "models": [
+      { "id": "glm-5.3", "displayName": "GLM-5.3", "status": "active", "featured": true, "aliases": [] },
+      { "id": "glm-5.3-flash", "displayName": "GLM-5.3 Flash", "status": "active", "featured": false, "aliases": [] },
       { "id": "glm-5.2", "displayName": "GLM-5.2", "status": "active", "featured": true, "aliases": [] },
       { "id": "glm-5.1", "displayName": "GLM-5.1", "status": "active", "featured": true, "aliases": [] },
       { "id": "glm-5", "displayName": "GLM-5", "status": "active", "featured": true, "aliases": [] },
@@ -73,7 +92,7 @@
       { "id": "glm-4.5-air", "displayName": "GLM-4.5 Air", "status": "active", "featured": false, "aliases": [] }
     ] },
     { "id": "meta", "displayName": "Meta", "models": [
-      { "id": "muse-spark", "displayName": "Muse Spark", "status": "active", "featured": true, "aliases": [] },
+      { "id": "muse-spark", "displayName": "Muse Spark 1.1", "status": "active", "featured": true, "aliases": ["muse-spark-1.1"] },
       { "id": "llama-4-maverick", "displayName": "Llama 4 Maverick", "status": "active", "featured": true, "aliases": [] },
       { "id": "llama-4-scout", "displayName": "Llama 4 Scout", "status": "active", "featured": true, "aliases": [] },
       { "id": "llama-guard-4", "displayName": "Llama Guard 4", "status": "active", "featured": false, "aliases": [] }
