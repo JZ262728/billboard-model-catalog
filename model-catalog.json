@@ -1,13 +1,16 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28T00:00:00Z",
+  "updatedAt": "2026-11-18T01:40:02Z",
   "providers": [
     { "id": "openai", "displayName": "OpenAI", "models": [
-      { "id": "gpt-6-astra", "displayName": "GPT-6 Astra", "status": "active", "featured": true, "aliases": [] },
-      { "id": "gpt-6.1-sol", "displayName": "GPT-6.1 Sol", "status": "active", "featured": true, "aliases": [] },
+      { "id": "gpt-6.2-astra", "displayName": "GPT-6.2 Astra", "status": "active", "featured": true, "aliases": [] },
+      { "id": "gpt-6.2-sol", "displayName": "GPT-6.2 Sol", "status": "active", "featured": true, "aliases": [] },
+      { "id": "gpt-6-astra", "displayName": "GPT-6 Astra", "status": "active", "featured": false, "aliases": [] },
+      { "id": "gpt-6.1-sol", "displayName": "GPT-6.1 Sol", "status": "active", "featured": false, "aliases": [] },
       { "id": "gpt-6.1-terra", "displayName": "GPT-6.1 Terra", "status": "active", "featured": true, "aliases": [] },
-      { "id": "gpt-6-sol", "displayName": "GPT-6 Sol", "status": "preview", "featured": false, "aliases": [] },
+      { "id": "gpt-6-sol", "displayName": "GPT-6 Sol", "status": "active", "featured": false, "aliases": [] },
       { "id": "gpt-6-luna", "displayName": "GPT-6 Luna", "status": "active", "featured": true, "aliases": [] },
+      { "id": "gpt-6-cyber", "displayName": "GPT-6 Cyber", "status": "active", "featured": false, "aliases": [] },
       { "id": "gpt-5.6-cyber", "displayName": "GPT-5.6 Cyber", "status": "active", "featured": false, "aliases": [] },
       { "id": "gpt-5.6-sol", "displayName": "GPT-5.6 Sol", "status": "active", "featured": true, "aliases": ["gpt-5.6"] },
       { "id": "gpt-5.6-terra", "displayName": "GPT-5.6 Terra", "status": "active", "featured": true, "aliases": [] },
@@ -17,24 +20,29 @@
       { "id": "gpt-5.4", "displayName": "GPT-5.4", "status": "active", "featured": false, "aliases": [] },
       { "id": "gpt-5.4-mini", "displayName": "GPT-5.4 Mini", "status": "active", "featured": false, "aliases": [] },
       { "id": "gpt-5.4-nano", "displayName": "GPT-5.4 Nano", "status": "active", "featured": false, "aliases": [] },
-      { "id": "gpt-5.3-codex", "displayName": "GPT-5.3 Codex", "status": "active", "featured": false, "aliases": [] }
+      { "id": "gpt-5.3-codex", "displayName": "GPT-5.3 Codex", "status": "active", "featured": false, "aliases": [] },
+      { "id": "gpt-image-2.6-sunburst", "displayName": "GPT-Image-2.6 Sunburst", "status": "active", "featured": false, "aliases": [] },
+      { "id": "gpt-image-2.6-flare", "displayName": "GPT-Image-2.6 Flare", "status": "active", "featured": false, "aliases": [] }
     ] },
     { "id": "anthropic", "displayName": "Anthropic", "models": [
-      { "id": "claude-fable-5-1", "displayName": "Claude Fable 5.1", "status": "active", "featured": true, "aliases": [] },
+      { "id": "claude-fable-5-2", "displayName": "Claude Fable 5.2", "status": "active", "featured": true, "aliases": [] },
+      { "id": "claude-fable-5-1", "displayName": "Claude Fable 5.1", "status": "active", "featured": false, "aliases": [] },
       { "id": "claude-opus-5-5", "displayName": "Claude Opus 5.5", "status": "active", "featured": true, "aliases": [] },
-      { "id": "claude-opus-5", "displayName": "Claude Opus 5", "status": "preview", "featured": false, "aliases": [] },
+      { "id": "claude-opus-5", "displayName": "Claude Opus 5", "status": "active", "featured": false, "aliases": [] },
       { "id": "claude-sonnet-5-5", "displayName": "Claude Sonnet 5.5", "status": "active", "featured": true, "aliases": [] },
-      { "id": "claude-sonnet-5", "displayName": "Claude Sonnet 5", "status": "preview", "featured": false, "aliases": [] },
+      { "id": "claude-sonnet-5", "displayName": "Claude Sonnet 5", "status": "active", "featured": false, "aliases": [] },
       { "id": "claude-haiku-5-5", "displayName": "Claude Haiku 5.5", "status": "active", "featured": false, "aliases": [] },
-      { "id": "claude-haiku-4-5-20251001", "displayName": "Claude Haiku 4.5", "status": "preview", "featured": false, "aliases": ["claude-haiku-4-5"] }
+      { "id": "claude-haiku-4-5-20251001", "displayName": "Claude Haiku 4.5", "status": "active", "featured": false, "aliases": ["claude-haiku-4-5"] }
     ] },
     { "id": "google", "displayName": "Google", "models": [
+      { "id": "gemini-4-carbon", "displayName": "Gemini 4 Carbon", "status": "active", "featured": true, "aliases": [] },
       { "id": "gemini-4-argon", "displayName": "Gemini 4 Argon", "status": "active", "featured": true, "aliases": [] },
-      { "id": "gemini-3.8-flash", "displayName": "Gemini 3.8 Flash", "status": "active", "featured": true, "aliases": [] },
+      { "id": "gemini-4-hydrogen", "displayName": "Gemini 4 Hydrogen", "status": "active", "featured": true, "aliases": [] },
+      { "id": "gemini-3.8-flash", "displayName": "Gemini 3.8 Flash", "status": "active", "featured": false, "aliases": [] },
       { "id": "gemini-3.8-live", "displayName": "Gemini 3.8 Live", "status": "active", "featured": false, "aliases": [] },
       { "id": "gemini-3.8-live-extended-thinking", "displayName": "Gemini 3.8 Live Extended Thinking", "status": "active", "featured": false, "aliases": [] },
-      { "id": "gemini-3.7-flash", "displayName": "Gemini 3.7 Flash", "status": "active", "featured": true, "aliases": [] },
-      { "id": "gemini-3.6-flash", "displayName": "Gemini 3.6 Flash", "status": "active", "featured": true, "aliases": [] },
+      { "id": "gemini-3.7-flash", "displayName": "Gemini 3.7 Flash", "status": "active", "featured": false, "aliases": [] },
+      { "id": "gemini-3.6-flash", "displayName": "Gemini 3.6 Flash", "status": "active", "featured": false, "aliases": [] },
       { "id": "gemini-3.5-flash", "displayName": "Gemini 3.5 Flash", "status": "active", "featured": true, "aliases": [] },
       { "id": "gemini-3.5-flash-lite", "displayName": "Gemini 3.5 Flash-Lite", "status": "active", "featured": false, "aliases": [] },
       { "id": "gemini-3.1-flash-lite", "displayName": "Gemini 3.1 Flash-Lite", "status": "active", "featured": false, "aliases": [] },
@@ -50,35 +58,42 @@
       { "id": "gemini-3.5-transcribe-live", "displayName": "Gemini 3.5 Transcribe Live", "status": "active", "featured": false, "aliases": [] },
       { "id": "gemini-3.5-live-translate-preview", "displayName": "Gemini 3.5 Live Translate", "status": "preview", "featured": false, "aliases": [] },
       { "id": "gemini-3.1-flash-tts-preview", "displayName": "Gemini 3.1 Flash TTS", "status": "preview", "featured": false, "aliases": [] },
-      { "id": "gemini-omni-1.1-flash", "displayName": "Gemini Omni Flash", "status": "active", "featured": false, "aliases": [] }
+      { "id": "gemini-omni-1.2-flash", "displayName": "Gemini Omni 1.2 Flash", "status": "active", "featured": false, "aliases": [] },
+      { "id": "gemini-omni-1.1-flash", "displayName": "Gemini Omni 1.1 Flash", "status": "active", "featured": false, "aliases": [] },
+      { "id": "gemini-decision-1", "displayName": "Gemini Decision 1", "status": "active", "featured": false, "aliases": [] }
     ] },
     { "id": "xai", "displayName": "xAI", "models": [
       { "id": "grok-4.7", "displayName": "Grok 4.7", "status": "active", "featured": true, "aliases": [] },
       { "id": "grok-4.3", "displayName": "Grok 4.3", "status": "active", "featured": true, "aliases": ["grok-latest"] },
       { "id": "grok-build-0.1", "displayName": "Grok Build 0.1", "status": "active", "featured": true, "aliases": [] },
-      { "id": "grok-4.20-multi-agent-0309", "displayName": "Grok 4.20 Multi-Agent", "status": "preview", "featured": false, "aliases": ["grok-4.20-multi-agent"] }
+      { "id": "grok-4.20-multi-agent-0309", "displayName": "Grok 4.20 Multi-Agent", "status": "preview", "featured": false, "aliases": ["grok-4.20-multi-agent"] },
+      { "id": "grok-imagine-image-2.0", "displayName": "Grok Imagine Image 2.0", "status": "active", "featured": false, "aliases": [] },
+      { "id": "grok-voice-3.0", "displayName": "Grok Voice 3.0", "status": "active", "featured": false, "aliases": ["grok-voice-latest"] }
     ] },
     { "id": "deepseek", "displayName": "DeepSeek", "models": [
       { "id": "deepseek-v4-pro", "displayName": "DeepSeek V4 Pro", "status": "active", "featured": true, "aliases": ["deepseek-v4-pro-0813"] },
-      { "id": "deepseek-v4-flash", "displayName": "DeepSeek V4.1 Flash 1017", "status": "active", "featured": true, "aliases": ["deepseek-flash", "deepseek-v4.1-flash", "deepseek-v4.1-flash-1017", "deepseek-v4-flash-0731"] },
-      { "id": "deepseek-v4-flash-vision-exp", "displayName": "DeepSeek V4 Flash Vision", "status": "preview", "featured": false, "aliases": [] }
+      { "id": "deepseek-flash", "displayName": "DeepSeek V4.1 Flash 1017", "status": "active", "featured": true, "aliases": ["deepseek-v4-flash", "deepseek-v4-flash-vision-exp", "deepseek-v4.1-flash", "deepseek-v4.1-flash-1017", "deepseek-v4-flash-0731"] }
     ] },
     { "id": "qwen", "displayName": "Qwen", "models": [
+      { "id": "qwen4-max", "displayName": "Qwen4-Max", "status": "active", "featured": true, "aliases": [] },
+      { "id": "qwen4-max-preview", "displayName": "Qwen4-Max Preview", "status": "preview", "featured": false, "aliases": [] },
       { "id": "qwen3.8-flash", "displayName": "Qwen3.8 Flash", "status": "active", "featured": true, "aliases": [] },
-      { "id": "qwen3.8-max", "displayName": "Qwen3.8 Max", "status": "active", "featured": true, "aliases": [] },
+      { "id": "qwen3.8-max", "displayName": "Qwen3.8 Max", "status": "active", "featured": false, "aliases": [] },
       { "id": "qwen3.7-plus", "displayName": "Qwen3.7 Plus", "status": "active", "featured": true, "aliases": [] },
       { "id": "qwen3.7-max", "displayName": "Qwen3.7 Max", "status": "active", "featured": true, "aliases": [] },
       { "id": "qwen3.5-plus", "displayName": "Qwen3.5 Plus", "status": "active", "featured": true, "aliases": [] },
       { "id": "qwen3.5-flash", "displayName": "Qwen3.5 Flash", "status": "active", "featured": false, "aliases": [] },
       { "id": "qwen3.5-397b-a17b", "displayName": "Qwen3.5 397B A17B", "status": "active", "featured": false, "aliases": [] },
-      { "id": "qwen3.5-122b-a10b", "displayName": "Qwen3.5 122B A10B", "status": "active", "featured": false, "aliases": [] }
+      { "id": "qwen3.5-122b-a10b", "displayName": "Qwen3.5 122B A10B", "status": "active", "featured": false, "aliases": [] },
+      { "id": "qwen3.8-omni-flash", "displayName": "Qwen3.8 Omni Flash", "status": "active", "featured": false, "aliases": [] },
+      { "id": "qwen3.8-omni-flash-realtime", "displayName": "Qwen3.8 Omni Flash Realtime", "status": "active", "featured": false, "aliases": [] }
     ] },
     { "id": "mistral", "displayName": "Mistral AI", "models": [
-      { "id": "mistral-large-4", "displayName": "Mistral Large 4", "status": "preview", "featured": true, "aliases": [] },
-      { "id": "mistral-large-3", "displayName": "Mistral Large 3", "status": "active", "featured": true, "aliases": [] },
-      { "id": "mistral-medium-3.5", "displayName": "Mistral Medium 3.5", "status": "active", "featured": true, "aliases": [] },
+      { "id": "mistral-large-4", "displayName": "Mistral Large 4", "status": "preview", "featured": true, "aliases": ["mistral-large-4-0"] },
+      { "id": "mistral-large-3", "displayName": "Mistral Large 3", "status": "active", "featured": false, "aliases": [] },
+      { "id": "mistral-medium-3.5", "displayName": "Mistral Medium 3.5", "status": "active", "featured": false, "aliases": [] },
       { "id": "mistral-small-4", "displayName": "Mistral Small 4", "status": "active", "featured": false, "aliases": [] },
-      { "id": "devstral-2", "displayName": "Devstral 2", "status": "active", "featured": true, "aliases": [] },
+      { "id": "devstral-2", "displayName": "Devstral 2", "status": "active", "featured": false, "aliases": [] },
       { "id": "codestral", "displayName": "Codestral", "status": "active", "featured": false, "aliases": [] },
       { "id": "ministral-3-14b", "displayName": "Ministral 3 14B", "status": "active", "featured": false, "aliases": [] },
       { "id": "ministral-3-8b", "displayName": "Ministral 3 8B", "status": "active", "featured": false, "aliases": [] },
@@ -86,9 +101,12 @@
       { "id": "voxtral-mini-tts-3-0", "displayName": "Voxtral TTS 3", "status": "preview", "featured": false, "aliases": [] },
       { "id": "voxtral-mini-transcribe-3-0", "displayName": "Voxtral Mini Transcribe 3", "status": "preview", "featured": false, "aliases": [] },
       { "id": "voxtral-mini-transcribe-realtime-3-0", "displayName": "Voxtral Mini Transcribe Realtime 3", "status": "preview", "featured": false, "aliases": [] },
-      { "id": "voxtral-small-transcribe-3-0", "displayName": "Voxtral Small Transcribe 3", "status": "preview", "featured": false, "aliases": [] }
+      { "id": "voxtral-small-transcribe-3-0", "displayName": "Voxtral Small Transcribe 3", "status": "preview", "featured": false, "aliases": [] },
+      { "id": "mistral-ocr-4-1", "displayName": "Mistral OCR 4.1", "status": "active", "featured": false, "aliases": ["mistral-ocr-latest", "mistral-ocr-4"] }
     ] },
     { "id": "kimi", "displayName": "Kimi", "models": [
+      { "id": "kimi-k3.1-pro", "displayName": "Kimi K3.1 Pro", "status": "active", "featured": true, "aliases": [] },
+      { "id": "kimi-k3.1-pro-highspeed", "displayName": "Kimi K3.1 Pro Highspeed", "status": "active", "featured": false, "aliases": [] },
       { "id": "kimi-k3", "displayName": "Kimi K3", "status": "active", "featured": true, "aliases": [] },
       { "id": "kimi-k2.7-code", "displayName": "Kimi K2.7 Code", "status": "active", "featured": true, "aliases": [] },
       { "id": "kimi-k2.6", "displayName": "Kimi K2.6", "status": "active", "featured": false, "aliases": [] },
@@ -116,15 +134,19 @@
       { "id": "muse-spark-1.3", "displayName": "Muse Spark 1.3", "status": "active", "featured": true, "aliases": [] },
       { "id": "muse-spark-1.2", "displayName": "Muse Spark 1.2", "status": "active", "featured": false, "aliases": [] },
       { "id": "muse-spark", "displayName": "Muse Spark 1.1", "status": "active", "featured": true, "aliases": ["muse-spark-1.1"] },
+      { "id": "muse-glimmer-30b", "displayName": "Muse Glimmer 30B", "status": "active", "featured": false, "aliases": [] },
       { "id": "llama-4-maverick", "displayName": "Llama 4 Maverick", "status": "active", "featured": true, "aliases": [] },
       { "id": "llama-4-scout", "displayName": "Llama 4 Scout", "status": "active", "featured": true, "aliases": [] },
       { "id": "llama-guard-4", "displayName": "Llama Guard 4", "status": "active", "featured": false, "aliases": [] }
     ] },
     { "id": "mimo", "displayName": "MiMo", "models": [
-      { "id": "mimo-v2.6-pro-rl", "displayName": "MiMo V2.6 Pro RL", "status": "active", "featured": true, "aliases": [] },
-      { "id": "mimo-v2.6-flash-rl", "displayName": "MiMo V2.6 Flash RL", "status": "active", "featured": true, "aliases": [] },
+      { "id": "mimo-v2.6-pro", "displayName": "MiMo V2.6 Pro", "status": "active", "featured": true, "aliases": [] },
+      { "id": "mimo-v2.6-flash", "displayName": "MiMo V2.6 Flash", "status": "active", "featured": true, "aliases": [] },
+      { "id": "mimo-v2.6-pro-ultraspeed", "displayName": "MiMo V2.6 Pro UltraSpeed", "status": "active", "featured": false, "aliases": [] },
+      { "id": "mimo-v2.6-pro-rl", "displayName": "MiMo V2.6 Pro RL", "status": "active", "featured": false, "aliases": [] },
+      { "id": "mimo-v2.6-flash-rl", "displayName": "MiMo V2.6 Flash RL", "status": "active", "featured": false, "aliases": [] },
       { "id": "mimo-v2-flash", "displayName": "MiMo V2 Flash", "status": "active", "featured": true, "aliases": [] },
-      { "id": "mimo-7b-rl", "displayName": "MiMo 7B RL", "status": "active", "featured": true, "aliases": [] },
+      { "id": "mimo-7b-rl", "displayName": "MiMo 7B RL", "status": "active", "featured": false, "aliases": [] },
       { "id": "mimo-7b-sft", "displayName": "MiMo 7B SFT", "status": "active", "featured": false, "aliases": [] },
       { "id": "mimo-7b-base", "displayName": "MiMo 7B Base", "status": "active", "featured": false, "aliases": [] },
       { "id": "mimo-7b-rl-zero", "displayName": "MiMo 7B RL-Zero", "status": "active", "featured": false, "aliases": [] }
@@ -135,7 +157,8 @@
       { "id": "nemotron-3.5-lightning-30b-a3b", "displayName": "Nemotron 3.5 Lightning 30B A3B", "status": "active", "featured": true, "aliases": [] },
       { "id": "nemotron-3-nano-30b-a3b", "displayName": "Nemotron 3 Nano 30B A3B", "status": "active", "featured": false, "aliases": [] },
       { "id": "nemotron-3-nano-omni-30b-a3b-reasoning", "displayName": "Nemotron 3 Nano Omni", "status": "active", "featured": false, "aliases": [] },
-      { "id": "nvidia-nemotron-nano-9b-v2", "displayName": "NVIDIA Nemotron Nano 9B v2", "status": "active", "featured": false, "aliases": [] }
+      { "id": "nvidia-nemotron-nano-9b-v2", "displayName": "NVIDIA Nemotron Nano 9B v2", "status": "active", "featured": false, "aliases": [] },
+      { "id": "nemotron-3.5-transcribe-30b-a4b", "displayName": "Nemotron 3.5 Transcribe 30B A4B", "status": "active", "featured": false, "aliases": ["nvidia-nemotron-3.5-transcribe-30b-a4b"] }
     ] }
   ]
 }
